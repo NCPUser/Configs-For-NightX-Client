@@ -1,7 +1,7 @@
 # Configs-For-NightX-Client
 Configs Bypass Server
 
-Status:Bypass Work
+Status:Work
 
 Client:https://github.com/Aspw-w/NightX-Client
 
