@@ -319,10 +319,10 @@ Crasher Log4jMode Chat
 Crasher toggle false
 Crasher bind NONE
 Criticals Mode Packet
-Criticals Delay 62
+Criticals Delay 105
 Criticals JumpHeight 0.42
 Criticals DownY 0.0
-Criticals HurtTime 4
+Criticals HurtTime 10
 Criticals OnlyAura false
 Criticals toggle true
 Criticals bind NONE
@@ -410,7 +410,7 @@ FastMine bind NONE
 FastPlace Speed 0
 FastPlace toggle false
 FastPlace bind NONE
-Flight Mode OldNCP
+Flight Mode Verus
 Flight Speed 1.6
 Flight V-Speed 1.0
 Flight Y-Motion 0.0
@@ -425,7 +425,7 @@ Flight Verus-Speed 1.25
 Flight Verus-Timer 0.35
 Flight Verus-Ticks 50
 Flight Verus-VisualPos true
-Flight Verus-VisualHeight 0.3
+Flight Verus-VisualHeight 0.0
 Flight Verus-SpoofGround true
 Flight AAC5-NoFall true
 Flight AAC5-UseC04 true
@@ -547,7 +547,7 @@ InventoryManager SortSlot-7 Bow
 InventoryManager SortSlot-8 Block
 InventoryManager SortSlot-9 Potion
 InventoryManager toggle false
-InventoryManager bind NONE
+InventoryManager bind J
 Invisible toggle false
 Invisible bind NONE
 Jesus Mode NCP
@@ -557,12 +557,12 @@ Jesus toggle true
 Jesus bind NONE
 KeepSprint toggle false
 KeepSprint bind NONE
-KillAura MaxCPS 13
-KillAura MinCPS 12
+KillAura MaxCPS 16
+KillAura MinCPS 15
 KillAura HurtTime 10
 KillAura Range 4.25
-KillAura ThroughWallsRange 2.25
-KillAura RangeSprintReducement 0.15
+KillAura ThroughWallsRange 2.3
+KillAura RangeSprintReducement 0.2
 KillAura RotationMode Full
 KillAura Spin-HitHurtTime 10
 KillAura MaxSpinSpeed 20.04
@@ -941,7 +941,7 @@ Stealer AutoCloseMinDelay 5
 Stealer CloseOnFull true
 Stealer ChestTitle false
 Stealer toggle false
-Stealer bind NONE
+Stealer bind J
 Step Mode NCPPacket
 Step Height 2.15
 Step JumpHeight 0.42
