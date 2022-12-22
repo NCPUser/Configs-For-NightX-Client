@@ -187,7 +187,7 @@ AutoLogin Login-Regex /login
 AutoLogin Register-Cmd /register Aspw95639535 Aspw95639535
 AutoLogin Login-Cmd /login Aspw95639535
 AutoLogin Delay 100
-AutoLogin toggle true
+AutoLogin toggle false
 AutoLogin bind NONE
 AutoMine toggle false
 AutoMine bind NONE
@@ -251,7 +251,7 @@ Brightness toggle true
 Brightness bind NONE
 Bypass MaxDelay 1200
 Bypass MinDelay 1200
-Bypass toggle false
+Bypass toggle true
 Bypass bind NONE
 CSDisabler Presets Ghostly
 CSDisabler CancelTransactions false
@@ -332,7 +332,7 @@ Damage toggle false
 Damage bind NONE
 Dead toggle true
 Dead bind NONE
-Disabler Mode Matrix
+Disabler Mode MatrixGeyser
 Disabler PingSpoof-MinDelay 0
 Disabler PingSpoof-MaxDelay 0
 Disabler PingSpoof-StartSendMode All
@@ -376,7 +376,7 @@ Disabler Timer1 true
 Disabler Timer2 false
 Disabler TestBlink false
 Disabler Debug false
-Disabler toggle false
+Disabler toggle true
 Disabler bind NONE
 DoubleJump toggle false
 DoubleJump bind NONE
@@ -397,7 +397,7 @@ FastBow toggle false
 FastBow bind NONE
 FastBridge toggle false
 FastBridge bind NONE
-FastEat Mode NCP
+FastEat Mode AACv4_2
 FastEat NoMove false
 FastEat CustomDelay 0
 FastEat CustomSpeed 2
@@ -516,7 +516,7 @@ Inventory Mode Silent
 Inventory InvSprint Keep
 Inventory NoDetectable false
 Inventory NoMoveClicks false
-Inventory toggle false
+Inventory toggle true
 Inventory bind NONE
 InventoryManager MaxDelay 134
 InventoryManager MinDelay 108
@@ -557,10 +557,10 @@ Jesus toggle false
 Jesus bind NONE
 KeepSprint toggle true
 KeepSprint bind NONE
-KillAura MaxCPS 16
-KillAura MinCPS 12
+KillAura MaxCPS 13
+KillAura MinCPS 10
 KillAura HurtTime 10
-KillAura Range 3.5
+KillAura Range 3.55
 KillAura ThroughWallsRange 1.54
 KillAura RangeSprintReducement 0.02
 KillAura RotationMode Full
@@ -690,17 +690,17 @@ NoRotate ConfirmIllegalRotation true
 NoRotate NoZero true
 NoRotate toggle false
 NoRotate bind NONE
-NoSlow PacketMode NCP
+NoSlow PacketMode Custom
 NoSlow BlockForwardMultiplier 1.0
 NoSlow BlockStrafeMultiplier 1.0
-NoSlow ConsumeForwardMultiplier 0.2
-NoSlow ConsumeStrafeMultiplier 0.2
-NoSlow BowForwardMultiplier 0.2
-NoSlow BowStrafeMultiplier 0.2
+NoSlow ConsumeForwardMultiplier 0.6
+NoSlow ConsumeStrafeMultiplier 0.6
+NoSlow BowForwardMultiplier 0.55
+NoSlow BowStrafeMultiplier 0.55
 NoSlow SneakForwardMultiplier 0.3
 NoSlow SneakStrafeMultiplier 0.3
-NoSlow CustomReleasePacket false
-NoSlow CustomPlacePacket false
+NoSlow CustomReleasePacket true
+NoSlow CustomPlacePacket true
 NoSlow CustomOnGround true
 NoSlow CustomDelay 60
 NoSlow SendPacket false
@@ -709,7 +709,7 @@ NoSlow PacketTrigger PostRelease
 NoSlow Debug false
 NoSlow Soulsand false
 NoSlow LiquidPush false
-NoSlow toggle false
+NoSlow toggle true
 NoSlow bind NONE
 Nuker Radius 4.2
 Nuker ThroughWalls false
