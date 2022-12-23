@@ -397,12 +397,12 @@ FastBow toggle false
 FastBow bind NONE
 FastBridge toggle false
 FastBridge bind NONE
-FastEat Mode AACv4_2
+FastEat Mode CustomDelay
 FastEat NoMove false
-FastEat CustomDelay 0
-FastEat CustomSpeed 2
-FastEat CustomTimer 1.1
-FastEat toggle false
+FastEat CustomDelay 130
+FastEat CustomSpeed 4
+FastEat CustomTimer 0.65
+FastEat toggle true
 FastEat bind NONE
 FastMine Speed 1.5
 FastMine toggle false
@@ -560,7 +560,7 @@ KeepSprint bind NONE
 KillAura MaxCPS 15
 KillAura MinCPS 13
 KillAura HurtTime 10
-KillAura Range 3.8
+KillAura Range 3.65
 KillAura ThroughWallsRange 1.56
 KillAura RangeSprintReducement 0.02
 KillAura RotationMode Full
@@ -905,7 +905,7 @@ Speed AAC-PortLength 1.0
 Speed AACGround-Timer 3.0
 Speed CubeCraft-PortLength 1.0
 Speed MineplexGround-Speed 0.5
-Speed toggle true
+Speed toggle false
 Speed bind G
 Spider Mode Simple
 Spider ClipMode Fast
@@ -1010,7 +1010,7 @@ Velocity Horizontal 0.0
 Velocity Vertical 0.0
 Velocity HorizontalExplosion 0.0
 Velocity VerticalExplosion 0.0
-Velocity Mode MatrixReverse
+Velocity Mode MatrixReduce
 Velocity AAC5.2.0-Attack-Only true
 Velocity Reduce-Chance 100.0
 Velocity ReverseStrength 1.0
