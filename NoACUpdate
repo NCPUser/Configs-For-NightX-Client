@@ -318,7 +318,7 @@ Crasher PacketAmount 1000
 Crasher Log4jMode Chat
 Crasher toggle false
 Crasher bind NONE
-Criticals Mode NewPacket
+Criticals Mode Packet2
 Criticals Delay 0
 Criticals JumpHeight 0.42
 Criticals DownY 0.0
@@ -375,7 +375,7 @@ Disabler StrafeDisablerPacketAmount 70
 Disabler Timer1 true
 Disabler Timer2 false
 Disabler TestBlink false
-Disabler Debug true
+Disabler Debug false
 Disabler toggle true
 Disabler bind NONE
 DoubleJump toggle false
@@ -400,7 +400,7 @@ FastBridge bind NONE
 FastEat Mode CustomDelay
 FastEat NoMove false
 FastEat CustomDelay 0
-FastEat CustomSpeed 20
+FastEat CustomSpeed 30
 FastEat CustomTimer 1.0
 FastEat toggle true
 FastEat bind NONE
@@ -458,7 +458,7 @@ Flight FakeDamage false
 Flight Bobbing false
 Flight BobbingAmount 0.1
 Flight Mark false
-Flight toggle true
+Flight toggle false
 Flight bind F
 Fucker Block 26
 Fucker IgnoreFirstDetection false
@@ -550,7 +550,7 @@ InventoryManager toggle false
 InventoryManager bind J
 Invisible toggle true
 Invisible bind NONE
-Jesus Mode NCP
+Jesus Mode MatrixDolphin
 Jesus AACFlyMotion 0.5
 Jesus NoJump false
 Jesus toggle true
@@ -783,7 +783,7 @@ SafeWalk AirSafe false
 SafeWalk toggle false
 SafeWalk bind NONE
 Scaffold EnableTower true
-Scaffold TowerMode ConstantMotion
+Scaffold TowerMode StableMotion
 Scaffold Tower-PlaceTiming Post
 Scaffold StopWhenBlockAbove true
 Scaffold OnJump true
@@ -792,7 +792,7 @@ Scaffold NoMoveFreezePlayer true
 Scaffold TowerTimer 1.0
 Scaffold JumpMotion 0.42
 Scaffold JumpDelay 0
-Scaffold StableMotion 1.0
+Scaffold StableMotion 0.85
 Scaffold StableFakeJump false
 Scaffold StableStop false
 Scaffold StableStopDelay 1500
@@ -802,7 +802,7 @@ Scaffold TeleportHeight 1.15
 Scaffold TeleportDelay 0
 Scaffold TeleportGround true
 Scaffold TeleportNoMotion false
-Scaffold Mode Normal
+Scaffold Mode Expand
 Scaffold PlaceableDelay false
 Scaffold MaxDelay 0
 Scaffold MinDelay 0
@@ -819,11 +819,11 @@ Scaffold EagleSilent false
 Scaffold BlocksToEagle 0
 Scaffold EagleEdgeDistance 0.2
 Scaffold OmniDirectionalExpand true
-Scaffold ExpandLength 2
+Scaffold ExpandLength 3
 Scaffold Rotations true
 Scaffold NoHitCheck false
-Scaffold RotationMode Normal
-Scaffold RotationLookup Normal
+Scaffold RotationMode Static3
+Scaffold RotationLookup AAC
 Scaffold MaxTurnSpeed 180.0
 Scaffold MinTurnSpeed 180.0
 Scaffold Static-Pitch 86.0
