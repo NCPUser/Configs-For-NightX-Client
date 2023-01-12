@@ -407,7 +407,7 @@ FastEat CustomTimer 1.1
 FastEat toggle false
 FastEat bind NONE
 FastMine Speed 1.5
-FastMine toggle false
+FastMine toggle true
 FastMine bind NONE
 FastPlace Speed 2
 FastPlace toggle true
@@ -478,7 +478,7 @@ Fucker Surroundings false
 Fucker NoAura false
 Fucker ResetCoolDownWhenToggled false
 Fucker toggle false
-Fucker bind NONE
+Fucker bind U
 Gapple Mode Auto
 Gapple Health 10.0
 Gapple Delay 150
@@ -550,7 +550,7 @@ KeepSprint bind NONE
 KillAura MaxCPS 14
 KillAura MinCPS 12
 KillAura HurtTime 10
-KillAura Range 3.48
+KillAura Range 3.75
 KillAura ThroughWallsRange 1.35
 KillAura RangeSprintReducement 0.05
 KillAura RotationMode None
@@ -965,7 +965,7 @@ Teams Color true
 Teams GommeSW false
 Teams ArmorColor false
 Teams ArmorIndex 3
-Teams toggle true
+Teams toggle false
 Teams bind NONE
 Terrain Mode Vanilla
 Terrain UpSpeed 0.3
