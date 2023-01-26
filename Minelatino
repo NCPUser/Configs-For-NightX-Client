@@ -44,7 +44,7 @@ Annoy PitchMode Down
 Annoy SilentRotate true
 Annoy toggle false
 Annoy bind NONE
-AntiAFK Mode Random
+AntiAFK Mode Old
 AntiAFK SwingDelay 100
 AntiAFK RotationDelay 100
 AntiAFK RotationAngle 1.0
@@ -458,8 +458,8 @@ Flight NeruxVace-Ticks 6
 Flight FakeSprinting false
 Flight FakeNoMove false
 Flight FakeDamage false
-Flight Bobbing false
-Flight BobbingAmount 0.1
+Flight Bobbing true
+Flight BobbingAmount 0.2
 Flight Mark false
 Flight toggle false
 Flight bind F
@@ -498,8 +498,6 @@ Hitboxes toggle true
 Hitboxes bind NONE
 HorseJump toggle false
 HorseJump bind NONE
-HycraftAutoLogin toggle false
-HycraftAutoLogin bind NONE
 IceSpeed Mode NCP
 IceSpeed toggle false
 IceSpeed bind NONE
@@ -509,8 +507,8 @@ Inventory NoDetectable false
 Inventory NoMoveClicks false
 Inventory toggle true
 Inventory bind NONE
-InventoryManager MaxDelay 217
-InventoryManager MinDelay 193
+InventoryManager MaxDelay 189
+InventoryManager MinDelay 176
 InventoryManager OnEvent Update
 InventoryManager InvOpen true
 InventoryManager InvSpoof false
@@ -537,7 +535,7 @@ InventoryManager SortSlot-6 None
 InventoryManager SortSlot-7 Bow
 InventoryManager SortSlot-8 Block
 InventoryManager SortSlot-9 Potion
-InventoryManager toggle true
+InventoryManager toggle false
 InventoryManager bind J
 Invisible toggle true
 Invisible bind NONE
@@ -548,10 +546,10 @@ Jesus toggle true
 Jesus bind NONE
 KeepSprint toggle true
 KeepSprint bind NONE
-KillAura MaxCPS 12
-KillAura MinCPS 9
+KillAura MaxCPS 8
+KillAura MinCPS 6
 KillAura HurtTime 10
-KillAura Range 3.48
+KillAura Range 3.42
 KillAura ThroughWallsRange 1.55
 KillAura RangeSprintReducement 0.08
 KillAura RotationMode None
@@ -588,7 +586,7 @@ KillAura LivingRayCast false
 KillAura AAC false
 KillAura SilentRotation true
 KillAura Strafe Off
-KillAura FOV 70.05
+KillAura FOV 67.85
 KillAura Predict false
 KillAura MaxPredictSize 1.5
 KillAura MinPredictSize 1.0
@@ -611,9 +609,6 @@ KillAura Blue 255
 KillAura Alpha 200
 KillAura toggle false
 KillAura bind R
-KillSults Language English
-KillSults toggle false
-KillSults bind NONE
 Knockback toggle false
 Knockback bind NONE
 LiquidInteract toggle false
@@ -847,14 +842,24 @@ Scaffold Red 255
 Scaffold Green 255
 Scaffold Blue 255
 Scaffold Alpha 120
-Scaffold Blur-Advanced false
-Scaffold Blur-Strength 1.0
 Scaffold toggle false
 Scaffold bind V
 Sneak Mode Normal
 Sneak StopMove false
 Sneak toggle false
 Sneak bind NONE
+Spammer Message !D.o.w.n.l.o.a.d. .N.i.g.h.t.X. .C.l.i.e.n.t.
+Spammer Custom false
+Spammer MaxDelay 1500
+Spammer Placeholder guide 
+Spammer %f Random float
+Spammer MinDelay 1500
+Spammer %i Random integer (max length 10000)
+Spammer %s Random string (max length 9)
+Spammer %ss Random short string (max length 5)
+Spammer %ls Random long string (max length 16)
+Spammer toggle false
+Spammer bind NONE
 Speed Type Other
 Speed NCP-Mode BHop
 Speed AAC-Mode 4Hop
@@ -914,8 +919,8 @@ StealAura Chest 54
 StealAura Rotations true
 StealAura toggle false
 StealAura bind NONE
-Stealer MaxDelay 122
-Stealer MinDelay 88
+Stealer MaxDelay 119
+Stealer MinDelay 89
 Stealer OnEvent Update
 Stealer TakeRandomized true
 Stealer OnlyItems false
@@ -925,11 +930,11 @@ Stealer AutoClose true
 Stealer SilentMode false
 Stealer Silent-ShowString true
 Stealer Silent-StillDisplay true
-Stealer AutoCloseMaxDelay 5
-Stealer AutoCloseMinDelay 5
+Stealer AutoCloseMaxDelay 61
+Stealer AutoCloseMinDelay 38
 Stealer CloseOnFull true
 Stealer ChestTitle false
-Stealer toggle true
+Stealer toggle false
 Stealer bind J
 Step Mode Vulcan
 Step Height 1.5
@@ -978,11 +983,11 @@ Terrain bind NONE
 TickTimer Speed 3.0
 TickTimer toggle false
 TickTimer bind NONE
-Timer Speed 2.0
-Timer OnMove false
+Timer Speed 1.4
+Timer OnMove true
 Timer AutoDisable false
 Timer toggle false
-Timer bind NONE
+Timer bind H
 TriggerBot MaxCPS 12
 TriggerBot MinCPS 10
 TriggerBot toggle false
