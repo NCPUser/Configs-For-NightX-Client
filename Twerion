@@ -206,11 +206,11 @@ AutoTool toggle true
 AutoTool bind NONE
 AutoWalk toggle false
 AutoWalk bind NONE
-BanStats Alert true
-BanStats ServerCheck true
-BanStats Alert-Time 10
-BanStats toggle false
-BanStats bind NONE
+BanNotifier Alert true
+BanNotifier ServerCheck true
+BanNotifier Alert-Time 10
+BanNotifier toggle false
+BanNotifier bind NONE
 Bhop toggle false
 Bhop bind NONE
 Blink Pulse true
@@ -240,7 +240,7 @@ Brightness toggle true
 Brightness bind NONE
 Bypass MaxDelay 1200
 Bypass MinDelay 1200
-Bypass toggle false
+Bypass toggle true
 Bypass bind NONE
 CSDisabler Presets Ghostly
 CSDisabler CancelTransactions false
@@ -329,7 +329,7 @@ Damage toggle false
 Damage bind NONE
 Dead toggle false
 Dead bind NONE
-Disabler Mode Mineplex-Combat
+Disabler Mode BlockDrop
 Disabler PingSpoof-MinDelay 0
 Disabler PingSpoof-MaxDelay 0
 Disabler PingSpoof-StartSendMode All
@@ -372,8 +372,9 @@ Disabler StrafeDisablerPacketAmount 70
 Disabler Timer1 true
 Disabler Timer2 false
 Disabler TestBlink false
+Disabler AntiStaff true
 Disabler Debug false
-Disabler toggle true
+Disabler toggle false
 Disabler bind NONE
 DoubleJump toggle false
 DoubleJump bind NONE
@@ -388,7 +389,7 @@ FakeLag Exclude true
 FakeLag IncludeClass c0f,confirmtransaction,packetplayer,c17
 FakeLag ExcludeClass c0f,confirmtransaction,packetplayer,c17
 FakeLag Debug true
-FakeLag toggle true
+FakeLag toggle false
 FakeLag bind NONE
 FakePlayer toggle false
 FakePlayer bind NONE
@@ -412,7 +413,7 @@ FastMine bind NONE
 FastPlace Speed 2
 FastPlace toggle true
 FastPlace bind NONE
-Flight Mode Pearl
+Flight Mode Motion
 Flight Speed 1.0
 Flight V-Speed 0.6
 Flight Y-Motion 0.0
@@ -461,7 +462,7 @@ Flight Bobbing false
 Flight BobbingAmount 0.1
 Flight Mark false
 Flight toggle false
-Flight bind NONE
+Flight bind F
 Fucker Block 26
 Fucker IgnoreFirstDetection false
 Fucker ResetOnWorldChange false
@@ -497,8 +498,6 @@ Hitboxes toggle true
 Hitboxes bind NONE
 HorseJump toggle false
 HorseJump bind NONE
-HycraftAutoLogin toggle false
-HycraftAutoLogin bind NONE
 IceSpeed Mode NCP
 IceSpeed toggle false
 IceSpeed bind NONE
@@ -572,7 +571,7 @@ KillAura NoKeepSprint false
 KillAura AutoBlock None
 KillAura Open true
 KillAura InteractAutoBlock false
-KillAura VerusAutoBlock false
+KillAura UnBlock-Exploit false
 KillAura ThroughAutoBlock true
 KillAura SmartAutoBlock false
 KillAura SmartAutoBlock-ItemCheck true
@@ -610,9 +609,6 @@ KillAura Blue 255
 KillAura Alpha 200
 KillAura toggle false
 KillAura bind R
-KillSults Language English
-KillSults toggle false
-KillSults bind NONE
 Knockback toggle false
 Knockback bind NONE
 LiquidInteract toggle false
@@ -658,7 +654,7 @@ Mobs bind NONE
 MurderDetector toggle false
 MurderDetector bind NONE
 NoC0Fs toggle false
-NoC0Fs bind NONE
+NoC0Fs bind K
 NoClip toggle false
 NoClip bind NONE
 NoFall Type Packet
@@ -846,14 +842,24 @@ Scaffold Red 255
 Scaffold Green 255
 Scaffold Blue 255
 Scaffold Alpha 120
-Scaffold Blur-Advanced false
-Scaffold Blur-Strength 1.0
 Scaffold toggle false
 Scaffold bind V
 Sneak Mode Normal
 Sneak StopMove false
 Sneak toggle false
 Sneak bind NONE
+Spammer Message !D.o.w.n.l.o.a.d. .N.i.g.h.t.X. .C.l.i.e.n.t.
+Spammer Custom false
+Spammer MaxDelay 1500
+Spammer Placeholder guide 
+Spammer %f Random float
+Spammer MinDelay 1500
+Spammer %i Random integer (max length 10000)
+Spammer %s Random string (max length 9)
+Spammer %ss Random short string (max length 5)
+Spammer %ls Random long string (max length 16)
+Spammer toggle false
+Spammer bind NONE
 Speed Type BlocksMC
 Speed NCP-Mode BHop
 Speed AAC-Mode 4Hop
@@ -991,11 +997,11 @@ Tweaks toggle false
 Tweaks bind NONE
 VanillaFlight toggle false
 VanillaFlight bind NONE
-Velocity Horizontal 0.77
-Velocity Vertical 0.82
+Velocity Horizontal 1.0
+Velocity Vertical 1.0
 Velocity HorizontalExplosion 0.8
 Velocity VerticalExplosion 0.8
-Velocity Mode AACv4
+Velocity Mode Cancel
 Velocity AAC5.2.0-Attack-Only true
 Velocity Reduce-Chance 100.0
 Velocity ReverseStrength 1.0
