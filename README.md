@@ -7,4 +7,4 @@ Client:https://github.com/Aspw-w/NightX-Client
 
 Client So Good Bypass All Servers
 
-Client Dead Data:31 Juan 2023 
+Client NO DEAD YESSSS
